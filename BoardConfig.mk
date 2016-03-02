@@ -20,6 +20,9 @@
 # Kernel Config
 # TARGET_KERNEL_CONFIG := cm_vibrantmtd_defconfig
 
+# prebuilt kernel
+TARGET_PREBUILT_KERNEL := device/samsung/vibrantmtd/boot.img
+
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/vibrantmtd/recovery/recovery_keys.c
 
